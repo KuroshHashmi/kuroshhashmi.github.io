@@ -34,8 +34,10 @@ p {
     border-color: black;
     border-style: solid;
     width: 30%;
+    height: auto;
     float: left;
     margin: 10px;
+    overflow: none;
 }
 
 .Card3 {
@@ -45,6 +47,7 @@ p {
     width: 30%;
     float: left;
     margin: 10px;
+    overflow: none;
 }
 
 .head1 {
@@ -88,18 +91,20 @@ p {
     }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .Cards {
         width: 45%;
     }
     .Card3 {
-        width: 93%;
+        width: 93.5%;
     }
 }
 
-@media (max-width: 767) {
-    .Card3,
+@media (min-width: 0px) and (max-width: 767px) {
     .Cards {
-        width: 93%;
+        width: 93.5%;
+    }
+    .Card3 {
+        width: 93.5%;
     }
 }
