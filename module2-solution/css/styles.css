@@ -10,9 +10,11 @@ h3 {
 }
 
 p {
-    margin-left: 10px;
     font-family: 'Balsamiq Sans', cursive;
     margin: auto;
+    padding: 5px;
+    height: auto;
+    padding-top: 60px;
 }
 
 .title {
